@@ -13,6 +13,7 @@ var Weather = React.createClass({
   handleSearch: function(location) {
     var that = this;
 
+    // Redirect to Dublin, Ireland
     if (location === 'dublin' || location === 'Dublin') {
       location = 'Dublin, Ireland';
     }
