@@ -34,7 +34,7 @@ var Weather = React.createClass({
     }, function(e) {
       that.setState({
         isLoading: false,
-        errorMessage: e.message
+        errorMessage: 'City not found'
       });
     });
   },
